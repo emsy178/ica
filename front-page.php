@@ -74,16 +74,24 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
         <div class="container">
             <p class="partners-strip-label">Partenaires et institutions affiliées</p>
         </div>
+        <?php
+        $ica_partner_logos = array(
+            array('file' => 'logo-oqrc.png', 'alt' => 'OQRC — Observatoire Québécois de Recherche sur la Collaboration'),
+            array('file' => 'logo-AERMQ-RVB-vert-2048x533.png', 'alt' => "AERMQ — Association de l'Enveloppe et des Revêtements Muraux du Québec"),
+            array('file' => 'logo-esg-uqam.png', 'alt' => "ESG UQAM — École des Sciences de la Gestion de l'UQAM"),
+        );
+        ?>
         <div class="partners-track">
             <div class="partners-track-inner">
-                <span class="partner-name">OQRC</span>
-                <span class="partner-name">AERMQ</span>
-                <span class="partner-name">UQAM</span>
-                <span class="partner-name">ESG UQAM</span>
-                <span class="partner-name">OQRC</span>
-                <span class="partner-name">AERMQ</span>
-                <span class="partner-name">UQAM</span>
-                <span class="partner-name">ESG UQAM</span>
+                <?php foreach (array_merge($ica_partner_logos, $ica_partner_logos) as $ica_partner) : ?>
+                    <span class="partner-logo">
+                        <img
+                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/' . $ica_partner['file']); ?>"
+                            alt="<?php echo esc_attr($ica_partner['alt']); ?>"
+                            loading="lazy"
+                        >
+                    </span>
+                <?php endforeach; ?>
             </div>
         </div>
     </section>
