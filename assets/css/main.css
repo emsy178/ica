@@ -1043,13 +1043,13 @@
 
         .certification-partner-badge {
             display: block;
-            max-width: 320px;
+            max-width: 260px;
             width: 100%;
             height: auto;
             border-radius: var(--radius-md);
-            margin-top: 1.5rem;
-            border: 1px solid var(--neutral-200);
-            box-shadow: var(--shadow-md);
+            margin-top: 2rem;
+            border: 1px solid var(--neutral-100);
+            box-shadow: var(--shadow-sm);
         }
 
         /* Carte bicolore Certificat AERMQ */

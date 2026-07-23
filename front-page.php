@@ -233,34 +233,6 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
         </div>
     </section>
 
-    <!-- Participants ciblés et objectifs AERMQ -->
-    <section class="section section-sm" id="objectifs-aermq" style="background-color: var(--neutral-50);">
-        <div class="container">
-            <div class="grid-2">
-                <div>
-                    <span class="section-label">Participants ciblés</span>
-                    <h2>À qui s'adresse cette formation ?</h2>
-                    <p>
-                        Tout individu d'une organisation membre de l'AERMQ qui sera amené à travailler
-                        dans un projet considéré collaboratif sur le marché, qui désire implanter une
-                        culture collaborative au sein de ses équipes et/ou projets, ou qui souhaite
-                        comprendre les fondamentaux de la collaboration dans les projets.
-                    </p>
-                </div>
-
-                <div>
-                    <span class="section-label">Objectifs</span>
-                    <h2>Ce que vous en retirerez</h2>
-                    <ul class="certification-features">
-                        <li>Comprendre les enjeux et mécanismes de la gouvernance collaborative</li>
-                        <li>Adapter des stratégies collaboratives quel que soit le mode de réalisation du projet</li>
-                        <li>Utiliser les meilleurs outils de la collaboration en fonction du contexte et des équipes</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Formateurs AERMQ -->
     <section class="section" id="formateurs-aermq">
         <div class="container">
