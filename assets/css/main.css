@@ -1041,31 +1041,15 @@
             position: relative;
         }
 
-        .aermq-partnership {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 1rem;
-            margin-top: 2rem;
-        }
-
-        .aermq-partnership-seal {
-            height: 64px;
-            width: auto;
-        }
-
-        .aermq-partnership-label {
-            font-size: 0.6875rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.06em;
-            color: var(--neutral-500);
-            white-space: nowrap;
-        }
-
-        .aermq-partnership-logo {
-            height: 36px;
-            width: auto;
+        .certification-partner-badge {
+            display: block;
+            max-width: 320px;
+            width: 100%;
+            height: auto;
+            border-radius: var(--radius-md);
+            margin-top: 1.5rem;
+            border: 1px solid var(--neutral-200);
+            box-shadow: var(--shadow-md);
         }
 
         /* Carte bicolore Certificat AERMQ */

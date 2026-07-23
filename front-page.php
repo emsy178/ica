@@ -199,19 +199,11 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         S'inscrire
                     </a>
 
-                    <div class="aermq-partnership">
-                        <img
-                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/seal-aermq.png'); ?>"
-                            alt="Certificat AERMQ de la collaboration appliquée"
-                            class="aermq-partnership-seal"
-                        >
-                        <span class="aermq-partnership-label">En partenariat avec</span>
-                        <img
-                            src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo-ica.png'); ?>"
-                            alt="Institut de la Collaboration Appliquée"
-                            class="aermq-partnership-logo"
-                        >
-                    </div>
+                    <img
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/certificat-aermq-ica-light.jpg'); ?>"
+                        alt="Certificat AERMQ de la collaboration appliquée, en partenariat avec l'ICA"
+                        class="certification-partner-badge"
+                    >
                 </div>
 
                 <div class="aermq-card-right">
