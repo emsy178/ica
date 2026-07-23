@@ -236,37 +236,41 @@
             color: inherit;
         }
 
-        .logo-icon {
-            width: 48px;
-            height: 48px;
-            background-color: var(--primary);
-            border-radius: var(--radius-md);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: 700;
-            font-size: 1.125rem;
+        .logo-image {
+            display: block;
+            height: 34px;
+            width: auto;
         }
 
-        .logo-text {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .logo-main {
-            font-size: 1.125rem;
-            font-weight: 700;
-            color: var(--neutral-900);
-            line-height: 1.2;
-        }
-
-        .logo-sub {
+        .logo-affiliation {
             font-size: 0.6875rem;
-            font-weight: 500;
-            color: var(--neutral-500);
+            font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.05em;
+            color: var(--secondary);
+            background-color: rgba(var(--secondary-rgb), 0.08);
+            border: 1px solid rgba(var(--secondary-rgb), 0.16);
+            padding: 0.3rem 0.75rem;
+            border-radius: 2rem;
+            text-decoration: none;
+            white-space: nowrap;
+            transition: var(--transition);
+        }
+
+        .logo-affiliation:hover {
+            background-color: rgba(var(--secondary-rgb), 0.16);
+            color: var(--secondary-dark);
+        }
+
+        .logo-affiliation-dark {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.12);
+            border-color: rgba(255, 255, 255, 0.22);
+        }
+
+        .logo-affiliation-dark:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
         }
 
         /* Navigation améliorée */
@@ -1181,11 +1185,6 @@
             grid-template-columns: 1fr 2fr;
             gap: 4rem;
             margin-bottom: 3rem;
-        }
-
-        .footer-logo .logo-main,
-        .footer-logo .logo-sub {
-            color: white;
         }
 
         .footer-links {

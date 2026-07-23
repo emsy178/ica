@@ -6,13 +6,14 @@
             <div class="footer-container">
                 <div class="footer-logo">
                     <div class="logo">
-                        <a href="<?php echo esc_url(home_url('/')); ?>" class="logo-link" aria-label="<?php echo esc_attr(get_bloginfo('name')); ?>">
-                            <div class="logo-icon">ICA</div>
+                        <a href="<?php echo esc_url(home_url('/')); ?>" class="logo-link" aria-label="<?php echo esc_attr(get_bloginfo('name') ?: "Institut de la Collaboration Appliquée"); ?>">
+                            <img
+                                src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo-ica-dark.png'); ?>"
+                                alt="<?php echo esc_attr(get_bloginfo('name') ?: "Institut de la Collaboration Appliquée"); ?>"
+                                class="logo-image"
+                            >
                         </a>
-                        <div class="logo-text">
-                            <a href="<?php echo esc_url(home_url('/')); ?>" class="logo-main"><?php echo get_bloginfo('name') ?: 'Institut de la Collaboration Appliquée'; ?></a>
-                            <a href="https://observatoire-collaboration.com/" class="logo-sub" target="_blank" rel="noopener noreferrer"><?php echo get_bloginfo('description') ?: 'Affilié à l\'OQRC'; ?></a>
-                        </div>
+                        <a href="https://observatoire-collaboration.com/" class="logo-affiliation logo-affiliation-dark" target="_blank" rel="noopener noreferrer"><?php echo esc_html(get_bloginfo('description') ?: "Affilié à l'OQRC"); ?></a>
                     </div>
                     <p style="color: rgba(255, 255, 255, 0.8); margin-top: 1rem; font-size: 0.875rem;">
                         Formons les leaders de demain en collaboration appliquée.
