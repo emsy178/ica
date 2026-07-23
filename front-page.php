@@ -30,8 +30,8 @@ get_header();
 
             <div class="hero-visual ">
                 <div class="floating-card">
-                    <h3>Certification Professionnelle</h3>
-                    <p>Programme complet de 6 mois avec accompagnement personnalisé et certification reconnue.</p>
+                    <h3>Certificat AERMQ</h3>
+                    <p>Formation de 2 jours en collaboration appliquée, certifiée suite à un examen.</p>
                 </div>
                 <div class="floating-card">
                     <h3>Réseau d'Experts</h3>
@@ -120,53 +120,10 @@ get_header();
         </div>
     </section>
 
-    <!-- Certification Section -->
-    <section class="certification-section section-lg" id="certification">
-        <div class="decorative-shape"></div>
-        <div class="decorative-shape"></div>
-        <div class="decorative-shape"></div>
-        <div class="decorative-shape"></div>
-        <div class="container">
-            <div class="grid-2">
-                <div class="">
-                    <span class="section-label">Programme Phare</span>
-                    <h2>Certification sur les fondements de la collaboration en organisation</h2>
-                    <p class="text-lead">
-                        Une formation approfondie qui vous permettra de comprendre et d'appliquer les principes essentiels de la collaboration efficace au sein de votre organisation.
-                    </p>
-
-                    <ul class="certification-features">
-                        <li>Méthodologies éprouvées basées sur la recherche scientifique</li>
-                        <li>Outils pratiques directement applicables</li>
-                        <li>Accompagnement personnalisé tout au long du parcours</li>
-                        <li>Réseau de professionnels et d'experts</li>
-                        <li>Certification reconnue par l'OQRC</li>
-                    </ul>
-
-                    <a href="#contact" class="btn-primary" style="margin-top: 1rem;">
-                        <i class="fas fa-file-signature"></i>
-                        S'inscrire au programme
-                    </a>
-                </div>
-
-                <div class="">
-                    <div class="card" style="background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2);">
-                        <h3>Détails du programme</h3>
-                        <p><strong>Durée:</strong> 6 mois (120 heures)</p>
-                        <p><strong>Format:</strong> Hybride (présentiel et en ligne)</p>
-                        <p><strong>Niveau:</strong> Professionnel avancé</p>
-                        <p><strong>Prérequis:</strong> Expérience professionnelle recommandée</p>
-                        <p><strong>Certification:</strong> Délivrée par l'OQRC</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <?php $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-appliquee/'; ?>
 
-    <!-- Certificat AERMQ Section -->
-    <section class="certification-section section-lg" id="certificat-aermq">
+    <!-- Certification Section (Certificat AERMQ) -->
+    <section class="certification-section section-lg" id="certification">
         <div class="decorative-shape"></div>
         <div class="decorative-shape"></div>
         <div class="container">

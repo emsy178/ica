@@ -107,7 +107,6 @@ function ica_default_menu() {
     echo '</ul>';
     echo '</li>';
     echo '<li><a href="#certification" class="nav-link">Certification</a></li>';
-    echo '<li><a href="#certificat-aermq" class="nav-link">Certificat AERMQ</a></li>';
     echo '<li><a href="#secteur" class="nav-link">Secteur d\'activité</a></li>'; 
     echo '<li><a href="#contact" class="nav-link">Contact</a></li>';
     echo '</ul>';
