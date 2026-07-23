@@ -106,7 +106,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                     <p class="text-lead">
                         L'Institut de la Collaboration Appliquée a pour mission de favoriser l'étude, l'accompagnement et le développement des processus, pratiques et outils collaboratifs au sein d'organisations, d'écosystèmes et de réseaux diversifiés.
                     </p>
-                    <p>
+                    <p class="text-lead">
                         Nous visons à soutenir les acteurs dans l'adoption de stratégies, d'outils et de réflexions fondées sur des données scientifiques et terrain pour améliorer la collaboration de manière concrète et mesurable.
                     </p>
                 </div>
