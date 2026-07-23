@@ -249,7 +249,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         class="profile-photo"
                     >
                     <h3>Caroline Coulombe</h3>
-                    <p><strong>Directrice de l'OQRC et experte de la collaboration</strong></p>
+                    <p class="profile-role">Directrice de l'OQRC et experte de la collaboration</p>
                     <p>
                         L'univers de la collaboration, des modes collaboratifs et des structures
                         collaboratives la passionne et fait l'objet de ses recherches partenariales,
@@ -266,7 +266,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         class="profile-photo"
                     >
                     <h3>Jonathan Harvey</h3>
-                    <p><strong>Formateur, professeur et expert de la collaboration</strong></p>
+                    <p class="profile-role">Formateur, professeur et expert de la collaboration</p>
                     <p>
                         Après une maîtrise en gestion de projet, il s'est spécialisé dans les
                         approches collaboratives au cours de ses études de doctorat à l'ESG UQAM.
@@ -304,7 +304,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         class="profile-photo"
                     >
                     <h3>Caroline Coulombe</h3>
-                    <p><strong>Présidente du CA</strong></p>
+                    <p class="profile-role">Présidente du CA</p>
                 </div>
 
                 <div class="card">
@@ -314,7 +314,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         class="profile-photo"
                     >
                     <h3>Kenza Benkrid</h3>
-                    <p><strong>Trésorière</strong></p>
+                    <p class="profile-role">Trésorière</p>
                 </div>
 
                 <div class="card">
@@ -324,7 +324,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         class="profile-photo"
                     >
                     <h3>Frédéric Lapierre</h3>
-                    <p><strong>Secrétaire du CA</strong></p>
+                    <p class="profile-role">Secrétaire du CA</p>
                 </div>
             </div>
         </div>

@@ -946,6 +946,13 @@
             border: 3px solid rgba(var(--primary-rgb), 0.08);
         }
 
+        .profile-role {
+            color: var(--secondary);
+            font-weight: 600;
+            font-size: 0.9375rem;
+            margin-bottom: 0.75rem;
+        }
+
         /* Cartes formateurs: plus de respiration + texte plus lisible */
         #formateurs-aermq .card {
             padding: 3rem;

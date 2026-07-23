@@ -28,6 +28,7 @@
                             <li><a href="#valeurs">Valeurs</a></li>
                             <li><a href="#certification">Certification</a></li>
                             <li><a href="#secteur">Secteur d\'activité</a></li>
+                            <li><a href="https://observatoire-collaboration.com/" target="_blank" rel="noopener noreferrer">OQRC</a></li>
                         </ul>
                     </div>
 
