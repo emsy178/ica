@@ -26,7 +26,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                     </p>
 
                     <ul class="certification-features">
-                        <li>Formation de 2 jours</li>
+                        <li>Formation de 2 jours, à distance (dates à venir)</li>
                         <li>Certificat délivré suite à un examen de certification</li>
                         <li>Conçue pour les réalités de projet du secteur</li>
                         <li>Développée par l'ICA en collaboration avec l'AERMQ</li>
@@ -36,16 +36,49 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         <i class="fas fa-file-signature"></i>
                         S'inscrire
                     </a>
+                    <p style="margin-top: 0.75rem; font-size: 0.9rem; opacity: 0.9;">
+                        Formation gratuite — seuls les frais d'examen (900&nbsp;$ + taxes) s'appliquent.
+                    </p>
                 </div>
 
                 <div>
                     <div class="card" style="background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2);">
                         <h3>Détails du programme</h3>
                         <p><strong>Durée :</strong> 2 jours</p>
+                        <p><strong>Format :</strong> À distance (dates à venir)</p>
+                        <p><strong>Coût :</strong> Formation gratuite, 900&nbsp;$ + taxes pour les examens</p>
                         <p><strong>Certification :</strong> Suite à un examen de certification</p>
                         <p><strong>Partenaire :</strong> AERMQ</p>
                         <p><strong>Développé par :</strong> ICA</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Participants ciblés et objectifs -->
+    <section class="section" id="objectifs-aermq">
+        <div class="container">
+            <div class="grid-2">
+                <div>
+                    <span class="section-label">Participants ciblés</span>
+                    <h2>À qui s'adresse cette formation ?</h2>
+                    <p>
+                        Tout individu d'une organisation membre de l'AERMQ qui sera amené à travailler
+                        dans un projet considéré collaboratif sur le marché, qui désire implanter une
+                        culture collaborative au sein de ses équipes et/ou projets, ou qui souhaite
+                        comprendre les fondamentaux de la collaboration dans les projets.
+                    </p>
+                </div>
+
+                <div>
+                    <span class="section-label">Objectifs</span>
+                    <h2>Ce que vous en retirerez</h2>
+                    <ul class="certification-features">
+                        <li>Comprendre les enjeux et mécanismes de la gouvernance collaborative</li>
+                        <li>Adapter des stratégies collaboratives quel que soit le mode de réalisation du projet</li>
+                        <li>Utiliser les meilleurs outils de la collaboration en fonction du contexte et des équipes</li>
+                    </ul>
                 </div>
             </div>
         </div>

@@ -104,10 +104,10 @@ function ica_default_menu() {
     echo '<li><a href="#mission" class="nav-link">Mission</a></li>';
     echo '<li><a href="#valeurs" class="nav-link">Valeurs</a></li>';
     echo '<li><a href="#conseil" class="nav-link">Conseil d\'administration</a></li>';
-    echo '<li><a href="#equipe" class="nav-link">Équipe</a></li>';
     echo '</ul>';
     echo '</li>';
     echo '<li><a href="#certification" class="nav-link">Certification</a></li>';
+    echo '<li><a href="#certificat-aermq" class="nav-link">Certificat AERMQ</a></li>';
     echo '<li><a href="#secteur" class="nav-link">Secteur d\'activité</a></li>'; 
     echo '<li><a href="#contact" class="nav-link">Contact</a></li>';
     echo '</ul>';
