@@ -115,6 +115,28 @@
             });
         });
 
+// ========== PARALLAX LÉGER (formes décoratives du hero) ==========
+(function heroParallax() {
+    const shapes = document.querySelectorAll('.hero .decorative-shape');
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (!shapes.length || prefersReducedMotion) return;
+
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+        if (ticking) return;
+        ticking = true;
+        window.requestAnimationFrame(() => {
+            const y = window.scrollY;
+            shapes.forEach((shape, i) => {
+                const speed = 0.12 + i * 0.06;
+                shape.style.transform = `translateY(${y * speed}px)`;
+            });
+            ticking = false;
+        });
+    }, { passive: true });
+})();
+
 // ========== DROPDOWN MENU MOBILE ==========
 document.querySelectorAll('.nav-links li.has-dropdown > .nav-link').forEach(link => {
     link.addEventListener('click', function(e) {

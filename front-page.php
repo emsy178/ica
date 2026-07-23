@@ -41,6 +41,25 @@ get_header();
         </div>
     </section>
 
+    <!-- Partenaires / Affiliations -->
+    <section class="partners-strip" aria-label="Nos partenaires et affiliations">
+        <div class="container">
+            <p class="partners-strip-label">Ils nous font confiance</p>
+        </div>
+        <div class="partners-track">
+            <div class="partners-track-inner">
+                <span class="partner-name">OQRC</span>
+                <span class="partner-name">AERMQ</span>
+                <span class="partner-name">UQAM</span>
+                <span class="partner-name">ESG UQAM</span>
+                <span class="partner-name">OQRC</span>
+                <span class="partner-name">AERMQ</span>
+                <span class="partner-name">UQAM</span>
+                <span class="partner-name">ESG UQAM</span>
+            </div>
+        </div>
+    </section>
+
     <!-- Mission Section -->
     <section class="section" id="mission">
         <div class="container">
