@@ -237,7 +237,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
     <section class="section" id="formateurs-aermq">
         <div class="container">
             <div class="section-header">
-                <span class="section-label">Vos formateurs</span>
+                <span class="section-label">Équipe d'experts dédiée</span>
                 <h2>Une expertise reconnue en collaboration appliquée</h2>
             </div>
 
