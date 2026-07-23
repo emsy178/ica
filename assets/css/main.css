@@ -936,6 +936,16 @@
             color: white;
         }
 
+        .profile-photo {
+            display: block;
+            width: 88px;
+            height: 88px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1.75rem;
+            border: 3px solid rgba(var(--primary-rgb), 0.08);
+        }
+
         .card h3 {
             margin-bottom: 1rem;
             font-size: 1.25rem;

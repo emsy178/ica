@@ -243,7 +243,11 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
 
             <div class="grid-2">
                 <div class="card">
-                    <div class="card-icon"><i class="fas fa-user-tie"></i></div>
+                    <img
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/carolineimg.webp'); ?>"
+                        alt="Caroline Coulombe"
+                        class="profile-photo"
+                    >
                     <h3>Caroline Coulombe</h3>
                     <p><strong>Directrice de l'OQRC et experte de la collaboration</strong></p>
                     <p>
@@ -256,7 +260,11 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                 </div>
 
                 <div class="card">
-                    <div class="card-icon"><i class="fas fa-user-tie"></i></div>
+                    <img
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/jonathan-harvey-2025-web.jpg'); ?>"
+                        alt="Jonathan Harvey"
+                        class="profile-photo"
+                    >
                     <h3>Jonathan Harvey</h3>
                     <p><strong>Formateur, professeur et expert de la collaboration</strong></p>
                     <p>
@@ -290,7 +298,11 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
 
             <div class="grid-3">
                 <div class="card">
-                    <div class="card-icon"><i class="fas fa-user-tie"></i></div>
+                    <img
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/carolineimg.webp'); ?>"
+                        alt="Caroline Coulombe"
+                        class="profile-photo"
+                    >
                     <h3>Caroline Coulombe</h3>
                     <p><strong>Présidente du CA</strong></p>
                 </div>
