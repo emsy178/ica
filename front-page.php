@@ -81,9 +81,9 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
             array('file' => 'logo-esg-uqam.png', 'alt' => "ESG UQAM — École des Sciences de la Gestion de l'UQAM"),
         );
         ?>
-        <div class="partners-track">
-            <div class="partners-track-inner">
-                <?php foreach (array_merge($ica_partner_logos, $ica_partner_logos) as $ica_partner) : ?>
+        <div class="container">
+            <div class="partners-row">
+                <?php foreach ($ica_partner_logos as $ica_partner) : ?>
                     <span class="partner-logo">
                         <img
                             src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/' . $ica_partner['file']); ?>"

@@ -978,7 +978,6 @@
             background-color: var(--neutral-50);
             border-top: 1px solid var(--neutral-200);
             border-bottom: 1px solid var(--neutral-200);
-            overflow: hidden;
         }
 
         .partners-strip-label {
@@ -991,24 +990,17 @@
             margin-bottom: 1.75rem;
         }
 
-        .partners-track {
-            overflow: hidden;
-            mask-image: linear-gradient(90deg, transparent, black 18%, black 82%, transparent);
-            -webkit-mask-image: linear-gradient(90deg, transparent, black 18%, black 82%, transparent);
-        }
-
-        .partners-track-inner {
+        .partners-row {
             display: flex;
             align-items: center;
-            width: max-content;
-            gap: 4.5rem;
-            animation: partnersScroll 26s linear infinite;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 3rem;
         }
 
         .partner-logo {
             display: flex;
             align-items: center;
-            flex-shrink: 0;
         }
 
         .partner-logo img {
@@ -1018,27 +1010,13 @@
             max-width: 160px;
             object-fit: contain;
             filter: grayscale(1);
-            opacity: 0.55;
+            opacity: 0.6;
             transition: filter 0.3s ease, opacity 0.3s ease;
         }
 
         .partner-logo img:hover {
             filter: grayscale(0);
             opacity: 1;
-        }
-
-        @keyframes partnersScroll {
-            from { transform: translateX(0); }
-            to { transform: translateX(-50%); }
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-            .partners-track-inner {
-                animation: none;
-                flex-wrap: wrap;
-                justify-content: center;
-                width: 100%;
-            }
         }
 
         /* Certification section */
