@@ -67,31 +67,12 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                 </div>
             </div>
         </div>
-
-        <div class="container hero-stats">
-            <div class="hero-stat">
-                <strong>2 jours</strong>
-                <span>Format intensif</span>
-            </div>
-            <div class="hero-stat">
-                <strong>Recherche terrain</strong>
-                <span>Méthodologie scientifique</span>
-            </div>
-            <div class="hero-stat">
-                <strong>OQRC</strong>
-                <span>Affiliation académique</span>
-            </div>
-            <div class="hero-stat">
-                <strong>AERMQ</strong>
-                <span>Partenariat sectoriel</span>
-            </div>
-        </div>
     </section>
 
     <!-- Partenaires / Affiliations -->
     <section class="partners-strip" aria-label="Nos partenaires et affiliations">
         <div class="container">
-            <p class="partners-strip-label">Ils nous font confiance</p>
+            <p class="partners-strip-label">Partenaires et institutions affiliées</p>
         </div>
         <div class="partners-track">
             <div class="partners-track-inner">
