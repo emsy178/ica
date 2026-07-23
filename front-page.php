@@ -176,53 +176,58 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
     </section>
 
     <!-- Certification Section (Certificat AERMQ) -->
-    <section class="certification-section section-lg" id="certification">
-        <div class="decorative-shape"></div>
-        <div class="decorative-shape"></div>
+    <section class="section section-lg" id="certification" style="background-color: var(--neutral-50);">
         <div class="container">
-            <div class="grid-2">
-                <div class="">
-                    <span class="section-label">Partenariat AERMQ</span>
-                    <h2>Certificat AERMQ en collaboration appliquée</h2>
-                    <p class="text-lead">
-                        <strong>Votre meilleur atout :</strong> vous intégrer dans des environnements collaboratifs, en particulier dans les projets où la coordination entre disciplines est de mise à la réussite du projet et où la posture de collaboration proactive est essentielle, à tous les niveaux des processus de construction.
-                    </p>
+            <span class="section-label">Partenariat AERMQ</span>
+            <h2>Certificat AERMQ en collaboration appliquée</h2>
+
+            <div class="aermq-card">
+                <div class="aermq-card-left">
+                    <h3>Compétences visées</h3>
                     <p>
-                        Ce certificat est une reconnaissance formelle des compétences collaboratives spécifiques au secteur de l'isolation et du revêtement mural, adaptée aux réalités de projets et aux exigences croissantes en matière de coordination interdisciplinaire. Un contenu personnalisé et ciblé, aligné sur les meilleures pratiques de l'industrie et les défis propres aux entrepreneurs de l'enveloppe et des revêtements muraux.
+                        Une formation intensive pensée pour répondre aux exigences croissantes de coordination interdisciplinaire et de gouvernance de projets, propre au secteur de l'isolation et du revêtement mural.
                     </p>
 
-                    <ul class="certification-features">
-                        <li>Formation de 2 jours, à distance (dates à venir)</li>
-                        <li>Certificat délivré suite à un examen de certification</li>
-                        <li>Conçue pour les réalités de projet du secteur</li>
-                        <li>Développée par l'ICA en collaboration avec l'AERMQ</li>
+                    <ul class="aermq-benefits">
+                        <li><strong>Maîtriser la gouvernance :</strong> comprendre les enjeux et mécanismes de la gouvernance collaborative.</li>
+                        <li><strong>Agilité de réalisation :</strong> adapter des stratégies collaboratives quel que soit le mode de réalisation du projet.</li>
+                        <li><strong>Outillage opérationnel :</strong> utiliser les meilleurs outils de la collaboration selon le contexte et les équipes.</li>
                     </ul>
 
-                    <a href="<?php echo esc_url($aermq_url); ?>" class="btn-primary" style="margin-top: 1rem;" target="_blank" rel="noopener noreferrer">
+                    <a href="<?php echo esc_url($aermq_url); ?>" class="btn-primary" target="_blank" rel="noopener noreferrer">
                         <i class="fas fa-file-signature"></i>
                         S'inscrire
                     </a>
-                    <p style="margin-top: 0.75rem; font-size: 0.9rem; opacity: 0.9;">
-                        Formation gratuite — seuls les frais d'examen (900&nbsp;$ + taxes) s'appliquent.
-                    </p>
 
                     <img
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/certificat-aermq-ica-dark.jpg'); ?>"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/certificat-aermq-ica-light.jpg'); ?>"
                         alt="Certificat AERMQ de la collaboration appliquée, en partenariat avec l'ICA"
                         class="certification-partner-badge"
                     >
                 </div>
 
-                <div class="">
-                    <div class="card" style="background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2);">
-                        <h3>Détails du programme</h3>
-                        <p><strong>Durée :</strong> 2 jours</p>
-                        <p><strong>Format :</strong> À distance (dates à venir)</p>
-                        <p><strong>Coût :</strong> Formation gratuite, 900&nbsp;$ + taxes pour les examens</p>
-                        <p><strong>Certification :</strong> Suite à un examen de certification</p>
-                        <p><strong>Partenaire :</strong> AERMQ</p>
-                        <p><strong>Développé par :</strong> ICA</p>
+                <div class="aermq-card-right">
+                    <span class="aermq-card-right-label">Fiche synthèse</span>
+                    <h3>Détails du parcours</h3>
+
+                    <div class="aermq-detail">
+                        <span class="aermq-detail-label">Durée &amp; format</span>
+                        <strong>2 jours — à distance (dates à venir)</strong>
                     </div>
+                    <div class="aermq-detail">
+                        <span class="aermq-detail-label">Partenaires concepteurs</span>
+                        <strong>ICA × AERMQ</strong>
+                    </div>
+                    <div class="aermq-detail">
+                        <span class="aermq-detail-label">Public cible</span>
+                        <strong>Membres AERMQ, gestionnaires de projets, chargés de coordination</strong>
+                    </div>
+                    <div class="aermq-detail">
+                        <span class="aermq-detail-label">Frais d'examen</span>
+                        <strong>Gratuit — 900&nbsp;$ + taxes pour l'examen</strong>
+                    </div>
+
+                    <p class="aermq-card-note">Examen officiel requis pour l'obtention du certificat.</p>
                 </div>
             </div>
         </div>

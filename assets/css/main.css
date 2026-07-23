@@ -1048,7 +1048,127 @@
             height: auto;
             border-radius: var(--radius-md);
             margin-top: 1.5rem;
+            border: 1px solid var(--neutral-200);
             box-shadow: var(--shadow-md);
+        }
+
+        /* Carte bicolore Certificat AERMQ */
+        .aermq-card {
+            display: grid;
+            grid-template-columns: 1.15fr 1fr;
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-xl);
+            border: 1px solid var(--neutral-200);
+            margin-top: 3rem;
+        }
+
+        .aermq-card-left {
+            background: white;
+            padding: 3rem;
+        }
+
+        .aermq-card-left h3 {
+            margin-bottom: 0.75rem;
+        }
+
+        .aermq-card-left > p {
+            color: var(--neutral-600);
+            margin-bottom: 1.75rem;
+        }
+
+        .aermq-benefits {
+            list-style: none;
+            margin: 0 0 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .aermq-benefits li {
+            padding-left: 1.75rem;
+            position: relative;
+            color: var(--neutral-600);
+        }
+
+        .aermq-benefits li strong {
+            color: var(--neutral-900);
+        }
+
+        .aermq-benefits li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.3rem;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: rgba(var(--secondary-rgb), 0.12);
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%230C71C3' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 10l3.5 3.5L15 6.5'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 10px;
+        }
+
+        .aermq-card-right {
+            background: linear-gradient(160deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .aermq-card-right-label {
+            display: block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 0.5rem;
+        }
+
+        .aermq-card-right h3 {
+            color: white;
+            margin-bottom: 2rem;
+        }
+
+        .aermq-detail {
+            padding-bottom: 1.25rem;
+            margin-bottom: 1.25rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+        }
+
+        .aermq-detail:last-of-type {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .aermq-detail-label {
+            display: block;
+            font-size: 0.6875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 0.375rem;
+        }
+
+        .aermq-detail strong {
+            display: block;
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            font-weight: 600;
+            color: white;
+            line-height: 1.4;
+        }
+
+        .aermq-card-note {
+            margin-top: auto;
+            padding-top: 1.5rem;
+            font-size: 0.8125rem;
+            color: rgba(255, 255, 255, 0.65);
         }
 
         .certification-features li:before {
@@ -1246,6 +1366,10 @@
                 gap: 3rem;
             }
 
+            .aermq-card {
+                grid-template-columns: 1fr;
+            }
+
             .footer-container {
                 grid-template-columns: 1fr;
                 gap: 3rem;
@@ -1335,6 +1459,11 @@
             }
             
             .contact-form {
+                padding: 2rem;
+            }
+
+            .aermq-card-left,
+            .aermq-card-right {
                 padding: 2rem;
             }
         }
