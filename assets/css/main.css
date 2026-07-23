@@ -195,6 +195,17 @@
             padding: 8rem 0;
         }
 
+        /* Uniformiser le rythme entre sections: ces deux transitions
+           cumulaient 224px (section-lg 8rem + section normale 6rem) contre
+           ~192px ailleurs sur la page. */
+        #certification {
+            padding-bottom: 6rem;
+        }
+
+        #contact {
+            padding-top: 6rem;
+        }
+
         .section-sm {
             padding: 4rem 0;
         }
