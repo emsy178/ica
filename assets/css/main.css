@@ -145,12 +145,13 @@
 
         h1 {
             font-size: 3.5rem;
-            font-weight: 600;
+            font-weight: 700;
             letter-spacing: -0.02em;
         }
 
         h2 {
             font-size: 2.5rem;
+            font-weight: 700;
         }
 
         h3 {
@@ -872,32 +873,17 @@
         }
 
         .section-label {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
+            display: block;
             color: var(--secondary);
             font-size: 0.8125rem;
-            font-weight: 600;
+            font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 0.08em;
+            letter-spacing: 0.1em;
             margin-bottom: 1rem;
-        }
-
-        .section-label::before {
-            content: '';
-            width: 6px;
-            height: 6px;
-            border-radius: 50%;
-            background-color: var(--secondary);
-            flex-shrink: 0;
         }
 
         .certification-section .section-label {
             color: rgba(255, 255, 255, 0.85);
-        }
-
-        .certification-section .section-label::before {
-            background-color: var(--accent);
         }
 
         /* Grid amélioré */
