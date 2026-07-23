@@ -97,7 +97,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
     </section>
 
     <!-- Mission Section -->
-    <section class="section" id="mission">
+    <section class="section" id="mission" style="background-color: white;">
         <div class="container">
             <div class="grid-2">
                 <div class="mission-content">
@@ -176,7 +176,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
     </section>
 
     <!-- Certification Section (Certificat AERMQ) -->
-    <section class="section section-lg" id="certification" style="background-color: var(--neutral-50);">
+    <section class="section section-lg" id="certification" style="background-color: white;">
         <div class="container">
             <span class="section-label">Partenariat AERMQ</span>
             <h2>Certificat AERMQ en collaboration appliquée</h2>
@@ -234,7 +234,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
     </section>
 
     <!-- Formateurs AERMQ -->
-    <section class="section" id="formateurs-aermq">
+    <section class="section" id="formateurs-aermq" style="background-color: var(--neutral-50);">
         <div class="container">
             <div class="section-header">
                 <span class="section-label">Équipe d'experts dédiée</span>
@@ -288,7 +288,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
 
         <!-- Conseil d'administration Section (regroupe aussi "Notre équipe") -->
     <a id="equipe"></a>
-    <section class="section" id="conseil">
+    <section class="section" id="conseil" style="background-color: white;">
         <div class="container">
             <div class="section-header ">
                 <span class="section-label">Gouvernance</span>
@@ -331,7 +331,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
     </section>
 
   <!-- Secteur d'activité Section -->
-    <section class="section" id="secteur">
+    <section class="section" id="secteur" style="background-color: var(--neutral-50);">
         <div class="container">
             <div class="section-header">
                 <span class="section-label">Secteurs d'intervention</span>
@@ -378,7 +378,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
     </section>
 
     <!-- Contact Section -->
-    <section class="section section-lg" id="contact">
+    <section class="section section-lg" id="contact" style="background-color: white;">
         <div class="container">
             <div class="section-header ">
                 <span class="section-label">Contact</span>
