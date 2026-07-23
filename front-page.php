@@ -308,13 +308,21 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                 </div>
 
                 <div class="card">
-                    <div class="card-icon"><i class="fas fa-user-tie"></i></div>
-                    <h3>Octave Emmanuel Faye</h3>
+                    <img
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/Kenza-photo-pro-1.webp'); ?>"
+                        alt="Kenza Benkrid"
+                        class="profile-photo"
+                    >
+                    <h3>Kenza Benkrid</h3>
                     <p><strong>Trésorière</strong></p>
                 </div>
 
                 <div class="card">
-                    <div class="card-icon"><i class="fas fa-user-tie"></i></div>
+                    <img
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/frederic-lapierre.jpg'); ?>"
+                        alt="Frédéric Lapierre"
+                        class="profile-photo"
+                    >
                     <h3>Frédéric Lapierre</h3>
                     <p><strong>Secrétaire du CA</strong></p>
                 </div>
