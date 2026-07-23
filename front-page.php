@@ -30,23 +30,40 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                 </div>
             </div>
 
-            <div class="hero-visual ">
-                <div class="floating-card floating-card-offer">
+            <div class="hero-visual">
+                <div class="floating-card floating-card-offer floating-card-lg">
                     <span class="floating-card-badge">Formation à distance</span>
-                    <h3>Certificat AERMQ</h3>
-                    <p>Formation de 2 jours en collaboration appliquée, certifiée suite à un examen.</p>
+                    <h3>Certificat AERMQ <span class="floating-card-subtitle">en collaboration appliquée</span></h3>
+                    <p>Formation certifiante développée par l'ICA pour le secteur de l'isolation et du revêtement mural.</p>
+
+                    <div class="floating-card-bento">
+                        <div class="floating-card-bento-item">
+                            <i class="fas fa-calendar-day"></i>
+                            <span>2 jours intensifs</span>
+                        </div>
+                        <div class="floating-card-bento-item">
+                            <i class="fas fa-file-signature"></i>
+                            <span>Examen inclus</span>
+                        </div>
+                        <div class="floating-card-bento-item">
+                            <i class="fas fa-laptop"></i>
+                            <span>100&nbsp;% à distance</span>
+                        </div>
+                        <div class="floating-card-bento-item">
+                            <i class="fas fa-handshake"></i>
+                            <span>Partenariat AERMQ</span>
+                        </div>
+                    </div>
+
                     <div class="floating-card-price">
                         <span class="floating-card-price-label">Coût de la formation</span>
                         <strong>Formation gratuite</strong>
                         <span class="floating-card-price-note">Frais d'examen : 900&nbsp;$ + taxes</span>
                     </div>
+
                     <a href="<?php echo esc_url($aermq_url); ?>" class="btn-primary floating-card-cta" target="_blank" rel="noopener noreferrer">
                         Réserver votre place
                     </a>
-                </div>
-                <div class="floating-card">
-                    <h3>Réseau d'Experts</h3>
-                    <p>Rejoignez notre communauté de praticiens et d'experts en collaboration organisationnelle.</p>
                 </div>
             </div>
         </div>
