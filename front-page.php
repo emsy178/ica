@@ -342,10 +342,10 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
     <section class="section" id="secteur">
         <div class="container">
             <div class="section-header">
-                <span class="section-label">Secteur d'activité</span>
-                <h2>À qui s'adresse cette certification ?</h2>
+                <span class="section-label">Secteurs d'intervention</span>
+                <h2>Une expertise qui s'applique à plusieurs secteurs</h2>
                 <p class="text-lead">
-                    Notre programme est conçu pour divers profils professionnels engagés dans l'amélioration des pratiques collaboratives
+                    Au-delà du Certificat AERMQ, l'approche collaborative de l'ICA s'adresse à divers profils professionnels engagés dans l'amélioration des pratiques collaboratives.
                 </p>
             </div>
             
