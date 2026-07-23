@@ -20,7 +20,7 @@
             <div class="logo">
                 <a href="<?php echo esc_url(home_url('/')); ?>" class="logo-link" aria-label="<?php echo esc_attr(get_bloginfo('name') ?: "Institut de la Collaboration Appliquée"); ?>">
                     <img
-                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo-ica-light.png'); ?>"
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/logo-ica.png'); ?>"
                         alt="<?php echo esc_attr(get_bloginfo('name') ?: "Institut de la Collaboration Appliquée"); ?>"
                         class="logo-image"
                     >
