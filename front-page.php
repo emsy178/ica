@@ -177,7 +177,10 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                     <span class="section-label">Partenariat AERMQ</span>
                     <h2>Certificat AERMQ en collaboration appliquée</h2>
                     <p class="text-lead">
-                        Une reconnaissance formelle des compétences collaboratives propres au secteur de l'isolation et du revêtement mural, conçue pour les réalités de projet et les exigences croissantes de coordination interdisciplinaire.
+                        <strong>Votre meilleur atout :</strong> vous intégrer dans des environnements collaboratifs, en particulier dans les projets où la coordination entre disciplines est de mise à la réussite du projet et où la posture de collaboration proactive est essentielle, à tous les niveaux des processus de construction.
+                    </p>
+                    <p>
+                        Ce certificat est une reconnaissance formelle des compétences collaboratives spécifiques au secteur de l'isolation et du revêtement mural, adaptée aux réalités de projets et aux exigences croissantes en matière de coordination interdisciplinaire. Un contenu personnalisé et ciblé, aligné sur les meilleures pratiques de l'industrie et les défis propres aux entrepreneurs de l'enveloppe et des revêtements muraux.
                     </p>
 
                     <ul class="certification-features">
