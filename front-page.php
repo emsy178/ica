@@ -196,6 +196,12 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                     <p style="margin-top: 0.75rem; font-size: 0.9rem; opacity: 0.9;">
                         Formation gratuite — seuls les frais d'examen (900&nbsp;$ + taxes) s'appliquent.
                     </p>
+
+                    <img
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/certificat-aermq-ica-dark.jpg'); ?>"
+                        alt="Certificat AERMQ de la collaboration appliquée, en partenariat avec l'ICA"
+                        class="certification-partner-badge"
+                    >
                 </div>
 
                 <div class="">

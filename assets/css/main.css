@@ -1043,6 +1043,16 @@
             position: relative;
         }
 
+        .certification-partner-badge {
+            display: block;
+            max-width: 320px;
+            width: 100%;
+            height: auto;
+            border-radius: var(--radius-md);
+            margin-top: 1.5rem;
+            box-shadow: var(--shadow-md);
+        }
+
         .certification-features li:before {
             content: '';
             position: absolute;
