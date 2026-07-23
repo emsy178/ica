@@ -5,6 +5,8 @@
  */
 
 get_header();
+
+$aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-appliquee/';
 ?>
 
     <!-- Hero Section -->
@@ -29,14 +31,42 @@ get_header();
             </div>
 
             <div class="hero-visual ">
-                <div class="floating-card">
+                <div class="floating-card floating-card-offer">
+                    <span class="floating-card-badge">Formation à distance</span>
                     <h3>Certificat AERMQ</h3>
                     <p>Formation de 2 jours en collaboration appliquée, certifiée suite à un examen.</p>
+                    <div class="floating-card-price">
+                        <span class="floating-card-price-label">Coût de la formation</span>
+                        <strong>Formation gratuite</strong>
+                        <span class="floating-card-price-note">Frais d'examen : 900&nbsp;$ + taxes</span>
+                    </div>
+                    <a href="<?php echo esc_url($aermq_url); ?>" class="btn-primary floating-card-cta" target="_blank" rel="noopener noreferrer">
+                        Réserver votre place
+                    </a>
                 </div>
                 <div class="floating-card">
                     <h3>Réseau d'Experts</h3>
                     <p>Rejoignez notre communauté de praticiens et d'experts en collaboration organisationnelle.</p>
                 </div>
+            </div>
+        </div>
+
+        <div class="container hero-stats">
+            <div class="hero-stat">
+                <strong>2 jours</strong>
+                <span>Format intensif</span>
+            </div>
+            <div class="hero-stat">
+                <strong>Recherche terrain</strong>
+                <span>Méthodologie scientifique</span>
+            </div>
+            <div class="hero-stat">
+                <strong>OQRC</strong>
+                <span>Affiliation académique</span>
+            </div>
+            <div class="hero-stat">
+                <strong>AERMQ</strong>
+                <span>Partenariat sectoriel</span>
             </div>
         </div>
     </section>
@@ -138,8 +168,6 @@ get_header();
             </div>
         </div>
     </section>
-
-    <?php $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-appliquee/'; ?>
 
     <!-- Certification Section (Certificat AERMQ) -->
     <section class="certification-section section-lg" id="certification">

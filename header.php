@@ -42,5 +42,7 @@
                     <i class="fas fa-bars"></i>
                 </button>
             </nav>
+
+            <a href="#certification" class="cta-button">Découvrir la certification</a>
         </div>
     </header>
