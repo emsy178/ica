@@ -1389,6 +1389,41 @@
         }
 
         /* RESPONSIVE - AMÉLIORÉ ET FIXÉ */
+
+        /* Palier intermédiaire (ordis portables ~13-14 pouces, 1025-1440px).
+           Sans ce palier, les titres et cartes gardent leur taille "grand
+           desktop" dans un espace plus étroit et paraissent surdimensionnés. */
+        @media (max-width: 1440px) and (min-width: 1025px) {
+            h1 {
+                font-size: 2.75rem;
+            }
+
+            h2 {
+                font-size: 2.125rem;
+            }
+
+            nav {
+                gap: 1.25rem;
+            }
+
+            .nav-links {
+                gap: 1.25rem;
+            }
+
+            .hero-container {
+                gap: 3rem;
+            }
+
+            .floating-card-lg {
+                padding: 2rem;
+            }
+
+            .aermq-card-left,
+            .aermq-card-right {
+                padding: 2.25rem;
+            }
+        }
+
         @media (max-width: 1024px) {
             h1 {
                 font-size: 2.5rem;
