@@ -1257,6 +1257,8 @@
             padding: 3rem;
             box-shadow: var(--shadow-xl);
             border: 1px solid var(--neutral-200);
+            max-width: 42rem;
+            margin: 0 auto;
         }
 
         .form-group {
@@ -1330,8 +1332,9 @@
 
         .footer-links {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 2rem;
+            max-width: 28rem;
         }
 
         .footer-column h4 {
@@ -1365,8 +1368,20 @@
             padding-top: 2rem;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             text-align: center;
+        }
+
+        .footer-bottom p {
             color: rgba(255, 255, 255, 0.7);
             font-size: 0.875rem;
+            margin-bottom: 0;
+        }
+
+        .footer-bottom a {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .footer-bottom a:hover {
+            color: white;
         }
 
         /* Animations */

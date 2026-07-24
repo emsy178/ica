@@ -314,7 +314,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         class="profile-photo"
                     >
                     <h3>Kenza Benkrid</h3>
-                    <p class="profile-role">Trésorière</p>
+                    <p class="profile-role">Trésorière du CA</p>
                 </div>
 
                 <div class="card">

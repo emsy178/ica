@@ -27,18 +27,8 @@
                             <li><a href="#mission">Mission</a></li>
                             <li><a href="#valeurs">Valeurs</a></li>
                             <li><a href="#certification">Certification</a></li>
-                            <li><a href="#secteur">Secteur d\'activité</a></li>
+                            <li><a href="#secteur">Secteur d'activité</a></li>
                             <li><a href="https://observatoire-collaboration.com/" target="_blank" rel="noopener noreferrer">OQRC</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="footer-column">
-                        <h4>Ressources</h4>
-                        <ul>
-                            <li><a href="#">Publications</a></li>
-                            <li><a href="#">Recherches</a></li>
-                            <li><a href="#">Outils</a></li>
-                            <li><a href="#">Événements</a></li>
                         </ul>
                     </div>
 
@@ -54,7 +44,7 @@
             </div>
 
             <div class="footer-bottom">
-                <p>&copy; <?php echo date('Y'); ?> <?php echo get_bloginfo('name') ?: 'Institut de la Collaboration Appliquée'; ?>. Tous droits réservés. <a href="https://observatoire-collaboration.com/" target="_blank" rel="noopener noreferrer">Affilié à l\'OQRC</a>.</p>
+                <p>&copy; <?php echo date('Y'); ?> <?php echo get_bloginfo('name') ?: 'Institut de la Collaboration Appliquée'; ?>. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
