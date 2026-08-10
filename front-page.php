@@ -78,7 +78,6 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
         $ica_partner_logos = array(
             array('file' => 'logo-oqrc.png', 'alt' => 'OQRC — Observatoire Québécois de Recherche sur la Collaboration'),
             array('file' => 'logo-AERMQ-RVB-vert-2048x533.png', 'alt' => "AERMQ — Association de l'Enveloppe et des Revêtements Muraux du Québec"),
-            array('file' => 'logo-esg-uqam.png', 'alt' => "ESG UQAM — École des Sciences de la Gestion de l'UQAM"),
         );
         ?>
         <div class="container">
