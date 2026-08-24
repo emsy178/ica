@@ -1202,11 +1202,37 @@
             line-height: 1.4;
         }
 
+        /* Coordonnees de contact sous "Duree & format" — texte discret,
+           l'adresse courriel reprend --accent (deja utilise comme couleur
+           d'accent sur fond bleu fonce, ex. .certification-features li:before). */
+        .aermq-detail-contact {
+            margin-top: 0.5rem;
+            font-size: 0.8125rem;
+            color: rgba(255, 255, 255, 0.75);
+            line-height: 1.5;
+        }
+
+        .aermq-detail-contact a {
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .aermq-detail-contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Meme esprit visuel que .aermq-detail strong (ci-dessus) pour que
+           cette ligne ressorte sur le fond bleu fonce de la fiche synthese. */
         .aermq-card-note {
             margin-top: auto;
             padding-top: 1.5rem;
-            font-size: 0.8125rem;
-            color: rgba(255, 255, 255, 0.65);
+            font-family: var(--font-heading);
+            font-size: 1rem;
+            font-weight: 600;
+            color: white;
+            line-height: 1.4;
         }
 
         .certification-features li:before {

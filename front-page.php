@@ -212,6 +212,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                     <div class="aermq-detail">
                         <span class="aermq-detail-label">Durée &amp; format</span>
                         <strong>2 jours — à distance (dates à venir)</strong>
+                        <p class="aermq-detail-contact">Communiquez avec Caroline Rousseau au 450 655-1657 ou par courriel à <a href="mailto:caroline.rousseau@aermq.qc.ca">caroline.rousseau@aermq.qc.ca</a></p>
                     </div>
                     <div class="aermq-detail">
                         <span class="aermq-detail-label">Partenaires concepteurs</span>
@@ -220,10 +221,6 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                     <div class="aermq-detail">
                         <span class="aermq-detail-label">Public cible</span>
                         <strong>Membres AERMQ, gestionnaires de projets, chargés de coordination</strong>
-                    </div>
-                    <div class="aermq-detail">
-                        <span class="aermq-detail-label">Frais d'examen</span>
-                        <strong>Gratuit — 900&nbsp;$ + taxes pour l'examen</strong>
                     </div>
 
                     <p class="aermq-card-note">Examen officiel requis pour l'obtention du certificat.</p>
