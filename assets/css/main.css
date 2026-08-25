@@ -1105,6 +1105,19 @@
             margin: 4rem 0;
         }
 
+        /* Variante compacte de .aermq-card, scopee au seul card "Certificat de
+           la collaboration appliquee" (padding et espacement de liste
+           reduits) sans toucher au card AERMQ partage juste en dessous. */
+        .aermq-card--compact .aermq-card-left,
+        .aermq-card--compact .aermq-card-right {
+            padding: 2rem;
+        }
+
+        .aermq-card--compact .aermq-benefits {
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
 
         /* Carte bicolore Certificat AERMQ */
         .aermq-card {

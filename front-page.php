@@ -183,7 +183,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                 <span class="section-label">Notre certification</span>
                 <h2>Certificat de la collaboration appliquée</h2>
 
-                <div class="aermq-card">
+                <div class="aermq-card aermq-card--compact">
                     <div class="aermq-card-left">
                         <p>
                             Un programme de certification complet destiné aux professionnels qui pilotent, coordonnent ou participent à des projets collaboratifs.
@@ -207,7 +207,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         </div>
 
                         <!-- Espace reserve pour un futur visuel de certificat ICA (badge/image) — pas de substitut pour l'instant, voir demande utilisateur. -->
-                        <div style="min-height: 60px; margin-top: 1.5rem;"></div>
+                        <div style="min-height: 20px; margin-top: 0.75rem;"></div>
                     </div>
 
                     <div class="aermq-card-right">
