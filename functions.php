@@ -48,14 +48,31 @@ function ica_theme_setup() {
 add_action('after_setup_theme', 'ica_theme_setup');
 
 /**
+ * Version de cache-busting basee sur la date de modification du fichier,
+ * pour que chaque edition de main.css/main.js force le rechargement cote
+ * navigateur (l'ancien numero fixe '1.0.0' ne changeait jamais, donc un
+ * navigateur pouvait continuer a servir une version cache du CSS apres
+ * une modification).
+ */
+function ica_asset_version($relative_path) {
+    $absolute_path = get_template_directory() . $relative_path;
+
+    if (file_exists($absolute_path)) {
+        return (string) filemtime($absolute_path);
+    }
+
+    return '1.0.0';
+}
+
+/**
  * Enqueue des styles et scripts
  */
 function ica_enqueue_scripts() {
     // Enqueue du fichier CSS principal
-    wp_enqueue_style('ica-main-style', get_template_directory_uri() . '/assets/css/main.css', array(), '1.0.0');
+    wp_enqueue_style('ica-main-style', get_template_directory_uri() . '/assets/css/main.css', array(), ica_asset_version('/assets/css/main.css'));
 
     // Enqueue du fichier JavaScript principal
-    wp_enqueue_script('ica-main-script', get_template_directory_uri() . '/assets/js/main.js', array(), '1.0.0', true);
+    wp_enqueue_script('ica-main-script', get_template_directory_uri() . '/assets/js/main.js', array(), ica_asset_version('/assets/js/main.js'), true);
 }
 add_action('wp_enqueue_scripts', 'ica_enqueue_scripts');
 
