@@ -183,11 +183,17 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                 <span class="section-label">Notre certification</span>
                 <h2>Certificat de la collaboration appliquée</h2>
 
-                <div class="aermq-card aermq-card--inverse">
+                <div class="aermq-card">
                     <div class="aermq-card-left">
                         <p>
                             Un programme de certification complet destiné aux professionnels qui pilotent, coordonnent ou participent à des projets collaboratifs.
                         </p>
+
+                        <ul class="aermq-benefits">
+                            <li><strong>Public visé :</strong> Directeur / gestionnaires de projets, responsable d'approvisionnement, coordinateur de projet, toute personne impliquée dans des projets collaboratifs (CCP/RPI, …)</li>
+                            <li><strong>Secteurs :</strong> santé, logistique, construction, immobilier, enseignement, villes et communes.</li>
+                            <li><strong>Type de projets :</strong> les apprentissages sont applicables tant aux projets d'envergure qu'aux projets de plus petite taille, notamment ceux réalisés selon des modes de réalisation collaboratifs tels que le Conception-Construction Progressif (CCP) et la Réalisation de projet intégrée (RPI), dont le recours est désormais davantage encadré et favorisé dans le cadre législatif québécois applicable aux contrats publics.</li>
+                        </ul>
 
                         <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
                             <a href="<?php echo esc_url($aermq_url); ?>" class="btn-primary" target="_blank" rel="noopener noreferrer">
@@ -204,20 +210,12 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                     </div>
 
                     <div class="aermq-card-right">
-                        <span class="aermq-card-right-label" style="margin-bottom: 2rem;">Fiche synthèse</span>
+                        <span class="aermq-card-right-label">Fiche synthèse</span>
+                        <h3>En bref</h3>
 
-                        <div class="aermq-detail">
-                            <span class="aermq-detail-label">Public visé</span>
-                            <strong>Directeur / gestionnaires de projets, responsable d'approvisionnement, coordinateur de projet, toute personne impliquée dans des projets collaboratifs (CCP/RPI, …)</strong>
-                        </div>
-                        <div class="aermq-detail">
-                            <span class="aermq-detail-label">Secteurs</span>
-                            <strong>Santé, logistique, construction, immobilier, enseignement, villes et communes</strong>
-                        </div>
-                        <div class="aermq-detail">
-                            <span class="aermq-detail-label">Type de projets</span>
-                            <strong>Les apprentissages sont applicables tant aux projets d'envergure qu'aux projets de plus petite taille, notamment ceux réalisés selon des modes de réalisation collaboratifs tels que le Conception-Construction Progressif (CCP) et la Réalisation de projet intégrée (RPI), dont le recours est désormais davantage encadré et favorisé dans le cadre législatif québécois applicable aux contrats publics.</strong>
-                        </div>
+                        <p style="color: rgba(255, 255, 255, 0.85);">
+                            Une certification conçue pour les gestionnaires et coordinateurs de projets collaboratifs, applicable à tous les secteurs et à toutes les tailles de projets — y compris les modes de réalisation CCP et RPI, désormais davantage encadrés dans le cadre législatif québécois.
+                        </p>
                     </div>
                 </div>
             </div>
