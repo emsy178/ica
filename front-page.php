@@ -183,39 +183,34 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                 <span class="section-label">Notre certification</span>
                 <h2>Certificat de la collaboration appliquée</h2>
 
-                <div class="grid-3" style="margin-top: 2.5rem; align-items: start;">
-                    <div class="card">
-                        <div class="card-icon"><i class="fas fa-users"></i></div>
-                        <h3>Public visé</h3>
-                        <p>Directeur / gestionnaires de projets, responsable d'approvisionnement, coordinateur de projet, toute personne impliquée dans des projets collaboratifs (CCP/RPI, …).</p>
+                <div class="aermq-card" style="margin-top: 2.5rem;">
+                    <div class="aermq-card-left">
+                        <h3>Une certification adaptée à vos projets</h3>
+                        <p>
+                            Les apprentissages sont applicables tant aux projets d'envergure qu'aux projets de plus petite taille, notamment ceux réalisés selon des modes de réalisation collaboratifs tels que le Conception-Construction Progressif (CCP) et la Réalisation de projet intégrée (RPI), dont le recours est désormais davantage encadré et favorisé dans le cadre législatif québécois applicable aux contrats publics.
+                        </p>
+
+                        <a href="#contact" class="btn-primary">
+                            <i class="fas fa-certificate"></i>
+                            En savoir plus
+                        </a>
                     </div>
 
-                    <div class="card">
-                        <div class="card-icon"><i class="fas fa-industry"></i></div>
-                        <h3>Secteurs</h3>
-                        <p>Santé, logistique, construction, immobilier, enseignement, villes et communes.</p>
-                    </div>
+                    <div class="aermq-card-right">
+                        <span class="aermq-card-right-label">Fiche synthèse</span>
+                        <h3>Profil des participants</h3>
 
-                    <div class="card">
-                        <div class="card-icon"><i class="fas fa-diagram-project"></i></div>
-                        <h3>Type de projets</h3>
-                        <p>Les apprentissages sont applicables tant aux projets d'envergure qu'aux projets de plus petite taille, notamment ceux réalisés selon des modes de réalisation collaboratifs tels que le Conception-Construction Progressif (CCP) et la Réalisation de projet intégrée (RPI), dont le recours est désormais davantage encadré et favorisé dans le cadre législatif québécois applicable aux contrats publics.</p>
-                    </div>
-                </div>
-
-                <div class="certification-visual">
-                    <div class="certification-badge">
-                        <div class="certification-badge-icon"><i class="fas fa-certificate"></i></div>
-                        <div class="certification-badge-text">
-                            <strong>Certificat ICA</strong>
-                            <span>Collaboration appliquée</span>
+                        <div class="aermq-detail">
+                            <span class="aermq-detail-label">Public visé</span>
+                            <strong>Directeur / gestionnaires de projets, responsable d'approvisionnement, coordinateur de projet, toute personne impliquée dans des projets collaboratifs (CCP/RPI, …)</strong>
                         </div>
-                    </div>
+                        <div class="aermq-detail">
+                            <span class="aermq-detail-label">Secteurs</span>
+                            <strong>Santé, logistique, construction, immobilier, enseignement, villes et communes</strong>
+                        </div>
 
-                    <a href="#contact" class="btn-primary">
-                        En savoir plus
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
+                        <p class="aermq-card-note">Applicable aux projets publics et privés, petits ou de grande envergure.</p>
+                    </div>
                 </div>
             </div>
 
