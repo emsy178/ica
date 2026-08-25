@@ -1100,6 +1100,59 @@
             margin: 4rem 0;
         }
 
+        /* Badge + CTA sous les 3 cartes de "Certificat de la collaboration
+           appliquee" — pendant du visuel de certificat + bouton CTA de la
+           sous-section AERMQ juste en dessous (badge image + "S'inscrire"),
+           mais propre a l'ICA (pas de partenaire), fait en CSS plutot qu'une
+           image puisqu'aucun visuel de certificat ICA n'existe encore dans
+           assets/images. */
+        .certification-visual {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2.5rem;
+            padding-top: 2.5rem;
+            border-top: 1px solid var(--neutral-200);
+        }
+
+        .certification-badge {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            background: var(--neutral-50);
+            border: 1px solid var(--neutral-200);
+            border-radius: var(--radius-lg);
+            padding: 1rem 1.5rem;
+        }
+
+        .certification-badge-icon {
+            width: 56px;
+            height: 56px;
+            flex-shrink: 0;
+            border-radius: 50%;
+            background: var(--primary);
+            color: var(--accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .certification-badge-text strong {
+            display: block;
+            font-family: var(--font-heading);
+            color: var(--primary);
+            font-size: 1rem;
+        }
+
+        .certification-badge-text span {
+            display: block;
+            color: var(--neutral-500);
+            font-size: 0.8125rem;
+        }
+
         /* Carte bicolore Certificat AERMQ */
         .aermq-card {
             display: grid;

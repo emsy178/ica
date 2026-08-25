@@ -183,7 +183,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                 <span class="section-label">Notre certification</span>
                 <h2>Certificat de la collaboration appliquée</h2>
 
-                <div class="grid-3" style="margin-top: 2.5rem;">
+                <div class="grid-3" style="margin-top: 2.5rem; align-items: start;">
                     <div class="card">
                         <div class="card-icon"><i class="fas fa-users"></i></div>
                         <h3>Public visé</h3>
@@ -201,6 +201,21 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         <h3>Type de projets</h3>
                         <p>Les apprentissages sont applicables tant aux projets d'envergure qu'aux projets de plus petite taille, notamment ceux réalisés selon des modes de réalisation collaboratifs tels que le Conception-Construction Progressif (CCP) et la Réalisation de projet intégrée (RPI), dont le recours est désormais davantage encadré et favorisé dans le cadre législatif québécois applicable aux contrats publics.</p>
                     </div>
+                </div>
+
+                <div class="certification-visual">
+                    <div class="certification-badge">
+                        <div class="certification-badge-icon"><i class="fas fa-certificate"></i></div>
+                        <div class="certification-badge-text">
+                            <strong>Certificat ICA</strong>
+                            <span>Collaboration appliquée</span>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="btn-primary">
+                        En savoir plus
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
 
