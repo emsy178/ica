@@ -1177,11 +1177,9 @@
             border-bottom: 1px solid rgba(255, 255, 255, 0.14);
         }
 
-        .aermq-detail:last-of-type {
-            border-bottom: none;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
+        /* Pas d'exception :last-of-type ici : "Public cible" est toujours
+           suivi de .aermq-card-note, qui a donc besoin du meme separateur
+           que les autres blocs pour garder le rythme vertical de la fiche. */
 
         .aermq-detail-label {
             display: block;
@@ -1223,11 +1221,11 @@
             text-decoration: underline;
         }
 
-        /* Meme esprit visuel que .aermq-detail strong (ci-dessus) pour que
-           cette ligne ressorte sur le fond bleu fonce de la fiche synthese. */
+        /* Meme esprit visuel que .aermq-detail strong (ci-dessus). Pas de
+           margin-top/padding-top : le rythme vertical vient deja du
+           margin-bottom de .aermq-detail (separateur "Public cible"), pour
+           rester colle au separateur comme les autres titres de section. */
         .aermq-card-note {
-            margin-top: auto;
-            padding-top: 1.5rem;
             font-family: var(--font-heading);
             font-size: 1rem;
             font-weight: 600;
