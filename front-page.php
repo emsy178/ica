@@ -196,6 +196,11 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         </ul>
 
                         <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+                            <!-- Bouton visuel uniquement pour l'instant : aucune fiche PDF n'existe encore, a brancher une fois le fichier fourni. -->
+                            <a href="#" class="btn-primary">
+                                <i class="fas fa-download"></i>
+                                Télécharger la fiche
+                            </a>
                             <a href="#certificat-aermq" class="btn-secondary">
                                 Autre certification
                             </a>
