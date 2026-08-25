@@ -1103,262 +1103,6 @@
             margin: 4rem 0;
         }
 
-        /* ============================================================
-           Certificat de la collaboration appliquee — carte elevee avec
-           badge de certification (design fourni par l'utilisateur, adapte
-           aux tokens/polices deja en place : var(--primary/--primary-dark),
-           var(--font-heading) herite des regles h1-h6 existantes plutot que
-           Roboto Slab, icones Font Awesome deja utilisees ailleurs sur ce
-           site plutot que des emojis).
-           ============================================================ */
-        .carte-principale {
-            background: white;
-            border-radius: var(--radius-xl);
-            box-shadow: 0 12px 40px rgba(0, 60, 109, 0.08);
-            padding: 2.75rem;
-            border: 1px solid var(--neutral-200);
-            transition: var(--transition);
-        }
-
-        .carte-principale:hover {
-            box-shadow: 0 20px 60px rgba(0, 60, 109, 0.12);
-        }
-
-        .badge-et-texte {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2.5rem;
-            align-items: center;
-            margin: 2rem 0;
-        }
-
-        .badge-colonne {
-            flex: 0 0 auto;
-            display: flex;
-            justify-content: center;
-        }
-
-        .texte-colonne {
-            flex: 1 1 380px;
-            min-width: 280px;
-        }
-
-        .texte-colonne h3 {
-            font-size: 1.25rem;
-            margin-bottom: 0.75rem;
-        }
-
-        .texte-colonne p {
-            margin-bottom: 1rem;
-        }
-
-        /* Badge circulaire — pendant du badge image AERMQ
-           (certification-partner-badge), mais propre a l'ICA. */
-        .badge-certification-container {
-            display: flex;
-            justify-content: center;
-            padding: 1rem;
-        }
-
-        .badge-certification {
-            position: relative;
-            width: 220px;
-            height: 220px;
-            border-radius: 50%;
-            background: white;
-            box-shadow: 0 20px 60px rgba(0, 60, 109, 0.15);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: var(--transition);
-        }
-
-        .badge-certification:hover {
-            transform: scale(1.03);
-        }
-
-        .badge-certification .anneau-exterieur {
-            position: absolute;
-            inset: 0;
-            border-radius: 50%;
-            border: 6px solid var(--primary-dark);
-        }
-
-        .badge-certification .anneau-intermediaire {
-            position: absolute;
-            inset: 16px;
-            border-radius: 50%;
-            border: 2px dashed var(--light-blue);
-        }
-
-        .badge-certification .anneau-interieur {
-            position: absolute;
-            inset: 32px;
-            border-radius: 50%;
-            border: 3px solid var(--primary);
-            background: radial-gradient(circle at 40% 35%, var(--neutral-50) 0%, white 70%);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 1.2rem;
-        }
-
-        .badge-certification .point-deco {
-            position: absolute;
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background: var(--light-blue);
-            box-shadow: 0 0 0 3px white, 0 0 0 5px rgba(110, 193, 228, 0.35);
-        }
-
-        .badge-certification .point-deco:nth-child(1) { top: 4%; left: 50%; transform: translateX(-50%); }
-        .badge-certification .point-deco:nth-child(2) { bottom: 4%; left: 50%; transform: translateX(-50%); }
-        .badge-certification .point-deco:nth-child(3) { left: 4%; top: 50%; transform: translateY(-50%); }
-        .badge-certification .point-deco:nth-child(4) { right: 4%; top: 50%; transform: translateY(-50%); }
-        .badge-certification .point-deco:nth-child(5) { top: 12%; left: 12%; }
-        .badge-certification .point-deco:nth-child(6) { top: 12%; right: 12%; }
-        .badge-certification .point-deco:nth-child(7) { bottom: 12%; left: 12%; }
-        .badge-certification .point-deco:nth-child(8) { bottom: 12%; right: 12%; }
-
-        .badge-certification .icone-centrale {
-            font-size: 2.25rem;
-            color: var(--primary-dark);
-            margin-bottom: 0.4rem;
-        }
-
-        .badge-certification .texte-badge {
-            font-size: 0.72rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            color: var(--primary);
-            line-height: 1.4;
-        }
-
-        .badge-certification .sous-texte {
-            display: block;
-            font-family: var(--font-body);
-            font-size: 0.6rem;
-            font-weight: 500;
-            letter-spacing: 0.05em;
-            color: var(--neutral-600);
-            text-transform: none;
-            margin-top: 0.2rem;
-        }
-
-        .badge-certification .ruban {
-            position: absolute;
-            bottom: -18px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 170px;
-            height: 36px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .badge-certification .ruban-gauche,
-        .badge-certification .ruban-droite {
-            width: 26px;
-            height: 36px;
-            background: var(--primary);
-            clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
-        }
-
-        .badge-certification .ruban-droite {
-            clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
-        }
-
-        .badge-certification .ruban-centre {
-            flex: 1;
-            height: 36px;
-            background: var(--primary-dark);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.65rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.08em;
-            color: white;
-            padding: 0 0.5rem;
-            text-align: center;
-        }
-
-        /* Tags secteurs */
-        .tags-secteurs {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.6rem;
-            margin-top: 0.5rem;
-        }
-
-        .tags-secteurs .tag {
-            display: inline-block;
-            padding: 0.45rem 1.1rem;
-            border-radius: var(--radius-md);
-            font-size: 0.82rem;
-            font-weight: 500;
-            letter-spacing: 0.03em;
-            background: rgba(110, 193, 228, 0.18);
-            color: var(--primary);
-            border: 1px solid rgba(110, 193, 228, 0.4);
-            transition: var(--transition);
-        }
-
-        .tags-secteurs .tag:hover {
-            background: rgba(110, 193, 228, 0.35);
-            border-color: var(--light-blue);
-        }
-
-        .separateur {
-            border: none;
-            height: 1px;
-            background: linear-gradient(to right, transparent, var(--neutral-200), transparent);
-            margin: 2rem 0;
-        }
-
-        .bouton-inscription {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            background: var(--primary-dark);
-            color: white;
-            font-weight: 600;
-            font-size: 0.9375rem;
-            padding: 0.85rem 2rem;
-            border-radius: 50px;
-            text-decoration: none;
-            transition: var(--transition);
-            border: 2px solid var(--primary-dark);
-            cursor: pointer;
-        }
-
-        .bouton-inscription:hover {
-            background: var(--primary);
-            border-color: var(--primary);
-            box-shadow: 0 8px 30px rgba(0, 60, 109, 0.25);
-            transform: translateY(-2px);
-        }
-
-        @media (max-width: 768px) {
-            .badge-et-texte {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .badge-colonne {
-                width: 100%;
-            }
-
-            .carte-principale {
-                padding: 1.8rem 1.5rem;
-            }
-        }
 
         @media (max-width: 640px) {
             .badge-certification {
@@ -1529,6 +1273,77 @@
             font-weight: 600;
             color: white;
             line-height: 1.4;
+        }
+
+        /* Variante couleurs inversees de .aermq-card : meme structure/forme
+           (grid 2 colonnes, padding, radius, boutons, labels, separateurs)
+           que la carte AERMQ, mais gauche fonce/texte blanc et droite
+           blanche/texte fonce — inverse exact du panneau AERMQ — pour
+           differencier visuellement "Certificat de la collaboration
+           appliquee" du "Certificat AERMQ" juste en dessous. */
+        .aermq-card--inverse .aermq-card-left {
+            background: linear-gradient(160deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+        }
+
+        .aermq-card--inverse .aermq-card-left > p {
+            color: rgba(255, 255, 255, 0.85);
+        }
+
+        /* Boutons sur le fond fonce de la colonne gauche inversee : S'inscrire
+           passe en blanc plein (contraste fort, action principale), Autre
+           certification en contour blanc (action secondaire) — meme
+           forme/taille que .btn-primary/.btn-secondary, seules les couleurs
+           changent pour rester lisibles sur fond bleu fonce. */
+        .aermq-card--inverse .aermq-card-left .btn-primary {
+            background-color: white;
+            color: var(--primary-dark);
+        }
+
+        .aermq-card--inverse .aermq-card-left .btn-primary:hover {
+            background-color: var(--neutral-100);
+            color: var(--primary-dark);
+        }
+
+        .aermq-card--inverse .aermq-card-left .btn-secondary {
+            color: white;
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .aermq-card--inverse .aermq-card-left .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-color: white;
+            color: white;
+        }
+
+        .aermq-card--inverse .aermq-card-right {
+            background: white;
+            color: var(--neutral-900);
+        }
+
+        .aermq-card--inverse .aermq-card-right-label {
+            color: var(--primary);
+        }
+
+        .aermq-card--inverse .aermq-detail {
+            border-bottom-color: var(--neutral-200);
+        }
+
+        .aermq-card--inverse .aermq-detail-label {
+            color: var(--neutral-500);
+        }
+
+        .aermq-card--inverse .aermq-detail strong {
+            color: var(--neutral-900);
+        }
+
+        /* Pas de .aermq-card-note dans cette variante (contenu volontairement
+           limite a 3 blocs, voir demande utilisateur) : le dernier bloc perd
+           donc sa bordure/marge pour ne pas laisser un vide en bas de carte. */
+        .aermq-card--inverse .aermq-detail:last-of-type {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
         }
 
         .certification-features li:before {

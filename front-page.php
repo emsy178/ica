@@ -182,73 +182,43 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
             <div id="certificat-collaboration-appliquee">
                 <span class="section-label">Notre certification</span>
                 <h2>Certificat de la collaboration appliquée</h2>
-                <p class="text-lead">
-                    Un programme de certification complet destiné aux professionnels qui pilotent, coordonnent ou participent à des projets collaboratifs.
-                </p>
 
-                <div class="carte-principale">
-                <div class="badge-et-texte">
-                    <div class="badge-colonne">
-                        <div class="badge-certification-container">
-                            <div class="badge-certification" role="img" aria-label="Badge du Certificat de la collaboration appliquée">
-                                <div class="anneau-exterieur"></div>
-                                <div class="anneau-intermediaire"></div>
-                                <div class="anneau-interieur">
-                                    <div class="icone-centrale"><i class="fas fa-handshake"></i></div>
-                                    <div class="texte-badge">
-                                        Certificat
-                                        <span class="sous-texte">Collaboration<br>Appliquée</span>
-                                    </div>
-                                </div>
-                                <span class="point-deco"></span>
-                                <span class="point-deco"></span>
-                                <span class="point-deco"></span>
-                                <span class="point-deco"></span>
-                                <span class="point-deco"></span>
-                                <span class="point-deco"></span>
-                                <span class="point-deco"></span>
-                                <span class="point-deco"></span>
-                                <div class="ruban">
-                                    <div class="ruban-gauche"></div>
-                                    <div class="ruban-centre">ICA — OQRC</div>
-                                    <div class="ruban-droite"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="texte-colonne">
-                        <h3>Pour qui ?</h3>
+                <div class="aermq-card aermq-card--inverse">
+                    <div class="aermq-card-left">
                         <p>
-                            <strong>Directeurs et gestionnaires de projets</strong>, <strong>responsables d'approvisionnement</strong>, <strong>coordinateurs de projet</strong> et toute personne impliquée dans des projets collaboratifs (CCP, RPI, …).
+                            Un programme de certification complet destiné aux professionnels qui pilotent, coordonnent ou participent à des projets collaboratifs.
                         </p>
 
-                        <h3>Secteurs d'application</h3>
-                        <div class="tags-secteurs">
-                            <span class="tag">Santé</span>
-                            <span class="tag">Logistique</span>
-                            <span class="tag">Construction</span>
-                            <span class="tag">Immobilier</span>
-                            <span class="tag">Enseignement</span>
-                            <span class="tag">Villes et communes</span>
+                        <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+                            <a href="<?php echo esc_url($aermq_url); ?>" class="btn-primary" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-certificate"></i>
+                                S'inscrire
+                            </a>
+                            <a href="#certificat-aermq" class="btn-secondary">
+                                Autre certification
+                            </a>
                         </div>
 
-                        <p style="margin-top: 1.2rem;">
-                            Les apprentissages sont applicables tant aux <strong>projets d'envergure</strong> qu'aux <strong>projets de plus petite taille</strong>, notamment ceux réalisés selon des modes de réalisation collaboratifs tels que le <strong>Conception-Construction Progressif (CCP)</strong> et la <strong>Réalisation de projet intégrée (RPI)</strong>, dont le recours est désormais davantage encadré et favorisé dans le cadre législatif québécois applicable aux contrats publics.
-                        </p>
-
-                        <a href="#contact" class="bouton-inscription">
-                            <i class="fas fa-certificate"></i>
-                            En savoir plus
-                        </a>
+                        <!-- Espace reserve pour un futur visuel de certificat ICA (badge/image) — pas de substitut pour l'instant, voir demande utilisateur. -->
+                        <div style="min-height: 220px; margin-top: 2rem;"></div>
                     </div>
-                </div>
 
-                <hr class="separateur">
+                    <div class="aermq-card-right">
+                        <span class="aermq-card-right-label" style="margin-bottom: 2rem;">Fiche synthèse</span>
 
-                <p class="text-sm" style="color: var(--neutral-600); margin-bottom: 0;">
-                    <strong>Examen officiel requis</strong> pour l'obtention du certificat. Programme développé par l'Institut de la Collaboration Appliquée (ICA) en partenariat avec l'Observatoire Québécois de Recherche sur la Collaboration (OQRC).
-                </p>
+                        <div class="aermq-detail">
+                            <span class="aermq-detail-label">Public visé</span>
+                            <strong>Directeur / gestionnaires de projets, responsable d'approvisionnement, coordinateur de projet, toute personne impliquée dans des projets collaboratifs (CCP/RPI, …)</strong>
+                        </div>
+                        <div class="aermq-detail">
+                            <span class="aermq-detail-label">Secteurs</span>
+                            <strong>Santé, logistique, construction, immobilier, enseignement, villes et communes</strong>
+                        </div>
+                        <div class="aermq-detail">
+                            <span class="aermq-detail-label">Type de projets</span>
+                            <strong>Les apprentissages sont applicables tant aux projets d'envergure qu'aux projets de plus petite taille, notamment ceux réalisés selon des modes de réalisation collaboratifs tels que le Conception-Construction Progressif (CCP) et la Réalisation de projet intégrée (RPI), dont le recours est désormais davantage encadré et favorisé dans le cadre législatif québécois applicable aux contrats publics.</strong>
+                        </div>
+                    </div>
                 </div>
             </div>
 
