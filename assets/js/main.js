@@ -22,6 +22,12 @@
         // Close mobile menu when clicking a link
         document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', () => {
+                // Ne pas fermer tout le panneau si ce lien sert juste a
+                // deplier son sous-menu mobile (cf. script Dropdown plus bas) —
+                // sinon le sous-menu se retrouve cache par le nav qui se ferme.
+                if (link.parentElement.classList.contains('has-dropdown')) {
+                    return;
+                }
                 nav.classList.remove('active');
             });
         });
