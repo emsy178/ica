@@ -179,13 +179,14 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
         <div class="container">
 
             <!-- Sous-section 1 : Certificat de la collaboration appliquee -->
-            <div id="certificat-collaboration-appliquee" class="carte-principale">
+            <div id="certificat-collaboration-appliquee">
                 <span class="section-label">Notre certification</span>
                 <h2>Certificat de la collaboration appliquée</h2>
                 <p class="text-lead">
                     Un programme de certification complet destiné aux professionnels qui pilotent, coordonnent ou participent à des projets collaboratifs.
                 </p>
 
+                <div class="carte-principale">
                 <div class="badge-et-texte">
                     <div class="badge-colonne">
                         <div class="badge-certification-container">
@@ -248,6 +249,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                 <p class="text-sm" style="color: var(--neutral-600); margin-bottom: 0;">
                     <strong>Examen officiel requis</strong> pour l'obtention du certificat. Programme développé par l'Institut de la Collaboration Appliquée (ICA) en partenariat avec l'Observatoire Québécois de Recherche sur la Collaboration (OQRC).
                 </p>
+                </div>
             </div>
 
             <hr class="certification-divider">
