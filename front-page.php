@@ -196,17 +196,13 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         </ul>
 
                         <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
-                            <a href="<?php echo esc_url($aermq_url); ?>" class="btn-primary" target="_blank" rel="noopener noreferrer">
-                                <i class="fas fa-certificate"></i>
-                                S'inscrire
-                            </a>
                             <a href="#certificat-aermq" class="btn-secondary">
                                 Autre certification
                             </a>
                         </div>
 
                         <!-- Espace reserve pour un futur visuel de certificat ICA (badge/image) — pas de substitut pour l'instant, voir demande utilisateur. -->
-                        <div style="min-height: 220px; margin-top: 2rem;"></div>
+                        <div style="min-height: 60px; margin-top: 1.5rem;"></div>
                     </div>
 
                     <div class="aermq-card-right">
@@ -272,12 +268,6 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
 
                     <p class="aermq-card-note">Examen officiel requis pour l'obtention du certificat.</p>
                 </div>
-                </div>
-
-                <div style="text-align: center; margin-top: 2.5rem;">
-                    <a href="https://aermq.qc.ca" class="btn-secondary" target="_blank" rel="noopener noreferrer">
-                        En savoir plus sur AERMQ
-                    </a>
                 </div>
             </div>
 
