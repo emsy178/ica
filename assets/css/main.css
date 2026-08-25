@@ -147,7 +147,9 @@
         }
 
         h1 {
-            font-size: 3.5rem;
+            /* 48px (etait 56px) : ratio vs texte courant (16px) ramene de
+               3.5x a 3x, dans la zone "equilibree" — voir audit typographie. */
+            font-size: 3rem;
             font-weight: 700;
             letter-spacing: -0.02em;
         }
@@ -1103,34 +1105,6 @@
             margin: 4rem 0;
         }
 
-
-        @media (max-width: 640px) {
-            .badge-certification {
-                width: 180px;
-                height: 180px;
-            }
-
-            .badge-certification .anneau-intermediaire { inset: 12px; }
-            .badge-certification .anneau-interieur { inset: 26px; padding: 0.8rem; }
-            .badge-certification .icone-centrale { font-size: 1.75rem; }
-            .badge-certification .texte-badge { font-size: 0.62rem; }
-
-            .badge-certification .ruban {
-                width: 140px;
-                bottom: -15px;
-            }
-
-            .badge-certification .ruban-gauche,
-            .badge-certification .ruban-droite {
-                width: 22px;
-                height: 30px;
-            }
-
-            .badge-certification .ruban-centre {
-                height: 30px;
-                font-size: 0.58rem;
-            }
-        }
 
         /* Carte bicolore Certificat AERMQ */
         .aermq-card {
