@@ -174,13 +174,44 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
         </div>
     </section>
 
-    <!-- Certification Section (Certificat AERMQ) -->
+    <!-- Certification Section (Certificat de la collaboration appliquee + Certificat AERMQ) -->
     <section class="section section-lg" id="certification" style="background-color: white;">
         <div class="container">
-            <span class="section-label">Partenariat AERMQ</span>
-            <h2>Certificat AERMQ en collaboration appliquée</h2>
 
-            <div class="aermq-card">
+            <!-- Sous-section 1 : Certificat de la collaboration appliquee -->
+            <div id="certificat-collaboration-appliquee">
+                <span class="section-label">Notre certification</span>
+                <h2>Certificat de la collaboration appliquée</h2>
+
+                <div class="grid-3" style="margin-top: 2.5rem;">
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-users"></i></div>
+                        <h3>Public visé</h3>
+                        <p>Directeur / gestionnaires de projets, responsable d'approvisionnement, coordinateur de projet, toute personne impliquée dans des projets collaboratifs (CCP/RPI, …).</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-industry"></i></div>
+                        <h3>Secteurs</h3>
+                        <p>Santé, logistique, construction, immobilier, enseignement, villes et communes.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-diagram-project"></i></div>
+                        <h3>Type de projets</h3>
+                        <p>Les apprentissages sont applicables tant aux projets d'envergure qu'aux projets de plus petite taille, notamment ceux réalisés selon des modes de réalisation collaboratifs tels que le Conception-Construction Progressif (CCP) et la Réalisation de projet intégrée (RPI), dont le recours est désormais davantage encadré et favorisé dans le cadre législatif québécois applicable aux contrats publics.</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="certification-divider">
+
+            <!-- Sous-section 2 : Certificat AERMQ (repositionnee, contenu inchange) -->
+            <div id="certificat-aermq">
+                <span class="section-label">Certificats partenaires</span>
+                <h2>Certificat AERMQ en collaboration appliquée</h2>
+
+                <div class="aermq-card">
                 <div class="aermq-card-left">
                     <h3>Compétences visées</h3>
                     <p>
@@ -225,7 +256,15 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
 
                     <p class="aermq-card-note">Examen officiel requis pour l'obtention du certificat.</p>
                 </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 2.5rem;">
+                    <a href="https://aermq.qc.ca" class="btn-secondary" target="_blank" rel="noopener noreferrer">
+                        En savoir plus sur AERMQ
+                    </a>
+                </div>
             </div>
+
         </div>
     </section>
 

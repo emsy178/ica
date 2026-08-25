@@ -1090,6 +1090,16 @@
             box-shadow: var(--shadow-sm);
         }
 
+        /* Separateur entre les 2 sous-sections de #certification (Certificat
+           de la collaboration appliquee / Certificats partenaires) — meme
+           couleur de bordure que .card (--neutral-200), meme rythme vertical
+           (4rem) que .section-header ailleurs sur la page. */
+        .certification-divider {
+            border: none;
+            border-top: 1px solid var(--neutral-200);
+            margin: 4rem 0;
+        }
+
         /* Carte bicolore Certificat AERMQ */
         .aermq-card {
             display: grid;
