@@ -1234,6 +1234,9 @@
            d'accent sur fond bleu fonce, ex. .certification-features li:before). */
         .aermq-detail-contact {
             margin-top: 0.5rem;
+            /* Explicite plutot qu'herite de p{margin-bottom:1.5rem} : reduit
+               l'espace avant le separateur de .aermq-detail (24px -> 8px). */
+            margin-bottom: 0.5rem;
             font-size: 0.8125rem;
             color: rgba(255, 255, 255, 0.75);
             line-height: 1.5;
