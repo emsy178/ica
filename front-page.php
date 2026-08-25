@@ -254,55 +254,60 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
 
             <!-- Sous-section 2 : Certificat AERMQ (repositionnee, contenu inchange) -->
             <div id="certificat-aermq">
-                <div class="titre-aermq">
-                    <span class="section-label" style="margin-bottom: 0;">Certificats partenaires</span>
-                    <span class="badge-aermq">AERMQ</span>
-                </div>
+                <span class="section-label">Certificats partenaires</span>
                 <h2>Certificat AERMQ en collaboration appliquée</h2>
 
-                <div class="carte-secondaire" style="margin-top: 2rem;">
-                    <div class="competences-visees">
-                        <div class="competence-item">
-                            <strong>Maîtriser la gouvernance</strong>
-                            <span>Comprendre les enjeux et mécanismes de la gouvernance collaborative.</span>
-                        </div>
-                        <div class="competence-item">
-                            <strong>Agilité de réalisation</strong>
-                            <span>Adapter des stratégies collaboratives quel que soit le mode de réalisation du projet.</span>
-                        </div>
-                        <div class="competence-item">
-                            <strong>Outillage opérationnel</strong>
-                            <span>Utiliser les meilleurs outils de la collaboration selon le contexte et les équipes.</span>
-                        </div>
-                    </div>
-
-                    <p style="font-size: 0.95rem; color: var(--neutral-600);">
-                        Une formation intensive pensée pour répondre aux exigences croissantes de coordination interdisciplinaire et de gouvernance de projets, propre au secteur de l'<strong>isolation et du revêtement mural</strong>.
+                <div class="aermq-card">
+                <div class="aermq-card-left">
+                    <h3>Compétences visées</h3>
+                    <p>
+                        Une formation intensive pensée pour répondre aux exigences croissantes de coordination interdisciplinaire et de gouvernance de projets, propre au secteur de l'isolation et du revêtement mural.
                     </p>
 
-                    <div class="fiche-synthese">
-                        <h4>Fiche synthèse — Détails du parcours</h4>
-                        <ul>
-                            <li><strong>Durée &amp; format :</strong> 2 jours — à distance (dates à venir)</li>
-                            <li><strong>Contact :</strong> Caroline Rousseau — 450 655-1657 — <a href="mailto:caroline.rousseau@aermq.qc.ca">caroline.rousseau@aermq.qc.ca</a></li>
-                            <li><strong>Partenaires concepteurs :</strong> ICA × AERMQ</li>
-                            <li><strong>Public cible :</strong> Membres AERMQ, gestionnaires de projets, chargés de coordination</li>
-                        </ul>
+                    <ul class="aermq-benefits">
+                        <li><strong>Maîtriser la gouvernance :</strong> comprendre les enjeux et mécanismes de la gouvernance collaborative.</li>
+                        <li><strong>Agilité de réalisation :</strong> adapter des stratégies collaboratives quel que soit le mode de réalisation du projet.</li>
+                        <li><strong>Outillage opérationnel :</strong> utiliser les meilleurs outils de la collaboration selon le contexte et les équipes.</li>
+                    </ul>
+
+                    <a href="<?php echo esc_url($aermq_url); ?>" class="btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-file-signature"></i>
+                        S'inscrire
+                    </a>
+
+                    <img
+                        src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/certificat-aermq-ica-light.jpg'); ?>"
+                        alt="Certificat AERMQ de la collaboration appliquée, en partenariat avec l'ICA"
+                        class="certification-partner-badge"
+                    >
+                </div>
+
+                <div class="aermq-card-right">
+                    <span class="aermq-card-right-label">Fiche synthèse</span>
+                    <h3>Détails du parcours</h3>
+
+                    <div class="aermq-detail">
+                        <span class="aermq-detail-label">Durée &amp; format</span>
+                        <strong>2 jours — à distance (dates à venir)</strong>
+                        <p class="aermq-detail-contact">Communiquez avec Caroline Rousseau au 450 655-1657 ou par courriel à <a href="mailto:caroline.rousseau@aermq.qc.ca">caroline.rousseau@aermq.qc.ca</a></p>
+                    </div>
+                    <div class="aermq-detail">
+                        <span class="aermq-detail-label">Partenaires concepteurs</span>
+                        <strong>ICA × AERMQ</strong>
+                    </div>
+                    <div class="aermq-detail">
+                        <span class="aermq-detail-label">Public cible</span>
+                        <strong>Membres AERMQ, gestionnaires de projets, chargés de coordination</strong>
                     </div>
 
-                    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1.2rem;">
-                        <span class="note-examen">Examen officiel requis pour l'obtention du certificat.</span>
-                        <a href="<?php echo esc_url($aermq_url); ?>" class="bouton-inscription" target="_blank" rel="noopener noreferrer">
-                            <i class="fas fa-file-signature"></i>
-                            S'inscrire
-                        </a>
-                    </div>
+                    <p class="aermq-card-note">Examen officiel requis pour l'obtention du certificat.</p>
+                </div>
+                </div>
 
-                    <div style="margin-top: 1.5rem;">
-                        <a href="https://aermq.qc.ca" class="lien-aermq" target="_blank" rel="noopener noreferrer">
-                            En savoir plus sur l'AERMQ &rarr; aermq.qc.ca
-                        </a>
-                    </div>
+                <div style="text-align: center; margin-top: 2.5rem;">
+                    <a href="https://aermq.qc.ca" class="btn-secondary" target="_blank" rel="noopener noreferrer">
+                        En savoir plus sur AERMQ
+                    </a>
                 </div>
             </div>
 
