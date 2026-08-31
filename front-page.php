@@ -479,11 +479,6 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         Envoyer le message
                     </button>
                 </form>
-
-                <div style="margin-top: 2rem; text-align: center; color: var(--neutral-500);">
-                    <p>Vous pouvez également nous joindre directement :</p>
-                    <p><strong>Courriel :</strong> info@ica.ca | <strong>Téléphone :</strong> +1 (000) 000-000</p>
-                </div>
             </div>
         </div>
     </section>

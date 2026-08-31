@@ -35,8 +35,6 @@
                     <div class="footer-column">
                         <h4>Contact</h4>
                         <ul>
-                            <li><a href="mailto:info@ica-oqrc.ca">info@ica.ca</a></li>
-                            <li><a href="tel:+15141234567"> +1 (000) 000-000</a></li>
                             <li><a href="https://observatoire-collaboration.com/" target="_blank">Site OQRC</a></li>
                         </ul>
                     </div>

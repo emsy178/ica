@@ -1270,7 +1270,9 @@
         }
 
         .aermq-detail-contact a {
-            color: var(--accent);
+            /* Bleu clair du header (nav-link:hover / bouton CTA) plutot que
+               --accent (jaune), sur demande explicite. */
+            color: var(--secondary);
             font-weight: 600;
             text-decoration: none;
             transition: var(--transition);
