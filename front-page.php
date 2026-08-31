@@ -212,7 +212,15 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
 
                     <div class="aermq-card-right">
                         <span class="aermq-card-right-label">Fiche synthèse</span>
-                        <span class="aermq-card-status-badge">Dates à venir</span>
+
+                        <div class="aermq-detail">
+                            <span class="aermq-detail-label">Durée &amp; format</span>
+                            <strong>En ligne ou en présentiel</strong>
+                        </div>
+                        <div class="aermq-detail">
+                            <span class="aermq-detail-label">Dates</span>
+                            <strong>À venir</strong>
+                        </div>
                     </div>
                 </div>
             </div>
