@@ -196,8 +196,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                         </ul>
 
                         <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
-                            <!-- Bouton visuel uniquement pour l'instant : aucune fiche PDF n'existe encore, a brancher une fois le fichier fourni. -->
-                            <a href="#" class="btn-primary">
+                            <a href="https://institutcollaborationapplique.ca/wp-content/uploads/2026/08/fiche-certificat-collaboration.pdf" class="btn-primary" target="_blank" rel="noopener noreferrer">
                                 <i class="fas fa-download"></i>
                                 Télécharger la fiche
                             </a>
