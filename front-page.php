@@ -58,7 +58,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
                     <div class="floating-card-price">
                         <span class="floating-card-price-label">Coût de la formation</span>
                         <strong>Formation gratuite</strong>
-                        <span class="floating-card-price-note">Frais d'examen : 900&nbsp;$ + taxes</span>
+                        <span class="floating-card-contact">Pour plus de détails, contactez Caroline Rousseau au 450 655-1657 ou par courriel à <a href="mailto:caroline.rousseau@aermq.qc.ca">caroline.rousseau@aermq.qc.ca</a></span>
                     </div>
 
                     <a href="<?php echo esc_url($aermq_url); ?>" class="btn-primary floating-card-cta" target="_blank" rel="noopener noreferrer">
@@ -212,11 +212,7 @@ $aermq_url = 'https://aermq.qc.ca/inscription-certificat-aermq-en-collaboration-
 
                     <div class="aermq-card-right">
                         <span class="aermq-card-right-label">Fiche synthèse</span>
-                        <h3>En bref</h3>
-
-                        <p style="color: rgba(255, 255, 255, 0.85);">
-                            Une certification conçue pour les gestionnaires et coordinateurs de projets collaboratifs, applicable à tous les secteurs et à toutes les tailles de projets — y compris les modes de réalisation CCP et RPI, désormais davantage encadrés dans le cadre législatif québécois.
-                        </p>
+                        <span class="aermq-card-status-badge">Dates à venir</span>
                     </div>
                 </div>
             </div>
